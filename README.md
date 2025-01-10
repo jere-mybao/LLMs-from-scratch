@@ -1,6 +1,6 @@
 # LLMs-from-Scratch
 
-The code in this repository is based on the book [Build a Large Language Model (From Scratch) by Sebastian Raschka](https://amzn.to/4fqvn0D). Here, we demonstrate how to create, train, and tweak large language models (LLMs) by building them from the ground up!
+The code in this repository is based on the book [Build a Large Language Model (From Scratch) by Sebastian Raschka](https://www.manning.com/books/build-a-large-language-model-from-scratch). Here, we demonstrate how to create, train, and tweak large language models (LLMs) by building them from the ground up!
 
 ## Contents
 
@@ -18,7 +18,11 @@ The code in this repository is based on the book [Build a Large Language Model (
 
 3. **Implementing LLM models from scratch to generate text**:  
    - Layer normalizations: LayerNorm, [RMSNorm](https://arxiv.org/abs/1910.07467)
-   - Activation functions: [GELU](https://arxiv.org/abs/1606.08415), [SiLU](https://arxiv.org/abs/1710.05941v1), [GLU](https://arxiv.org/abs/1612.08083), [SwiGLU](https://arxiv.org/pdf/2002.05202), [ReLU^2](https://arxiv.org/abs/2402.03804)
+   - Activation functions: [GELU](https://arxiv.org/abs/1606.08415), [Swish](https://arxiv.org/abs/1710.05941v1), [GLU](https://arxiv.org/abs/1612.08083), [SwiGLU](https://arxiv.org/pdf/2002.05202), [ReLU^2](https://arxiv.org/abs/2402.03804)
+
+     > "We offer no explanation as to why these architectures seem to work; we attribute
+     > their success, as all else, to divine benevolence (Shazeer, 2020)."
+
    - Feed forward neural network
    - Shortcut connections
    - [Transformers](https://arxiv.org/abs/1706.03762) with weight tying
