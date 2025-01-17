@@ -13,8 +13,11 @@ The code in this repository is based on the book [Build a Large Language Model (
    - Self-attention without trainable weights
    - Self attention with trainable weights (key, query, value)
    - Causal attention and dropout masks
-   - Efficient multi-head [attention](https://arxiv.org/abs/1706.03762)
-   - [Grouped query attention](https://arxiv.org/abs/2305.13245v3)
+   - [Multi-head attention](https://arxiv.org/abs/1706.03762)
+   - More advanced versions: scaled dot product [FlashAttention](https://arxiv.org/abs/2205.14135), [FlexAttention](https://pytorch.org/blog/flexattention), [Grouped Query Attention](https://arxiv.org/abs/2305.13245v3)
+
+     > "In theory, Attention is All You Need. In practice, however, we also need optimized attention implementations like FlashAttention (He et al. 2024)."
+      - Great [blog post](https://gordicaleksa.medium.com/eli5-flash-attention-5c44017022ad) on FlashAttention from Aleksa Gordić
 
 3. **Implementing LLM models from scratch to generate text**:  
    - Layer normalizations: LayerNorm, [RMSNorm](https://arxiv.org/abs/1910.07467)
